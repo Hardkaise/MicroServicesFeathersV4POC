@@ -5,7 +5,7 @@
 import { Application } from '../declarations';
 import * as mongoose from 'mongoose'
 
-const ObjectId = mongoose.SchemaTypes.ObjectId;
+const ObjectId = mongoose.Schema.Types.ObjectId;
 
 export default function (app: Application) {
   const mongooseClient = app.get('mongooseClient');
@@ -13,7 +13,7 @@ export default function (app: Application) {
 
     email: {type: String, unique: true, lowercase: true},
     password: { type: String },
-    friendsId: { type: [ ObjectId ] }
+    friendsId: [{ type:  ObjectId, ref: 'users' }]
 
   }, {
     timestamps: true

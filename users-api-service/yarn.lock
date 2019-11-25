@@ -27,6 +27,17 @@
     "@feathersjs/errors" "^4.3.11"
     "@feathersjs/feathers" "^4.3.11"
 
+"@feathersjs/authentication-client@^4.3.11":
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/authentication-client/-/authentication-client-4.3.11.tgz#31930c7af73e718282926a9f73bab9e51be14778"
+  integrity sha512-4l5LYEO99+bDgVvtxhl64YBEjo7LgWox8ZlPO7nXw5fUJckZ4dC60foKzpecL4R4Y8I+YI2KFdvR7WHucI0lgA==
+  dependencies:
+    "@feathersjs/authentication" "^4.3.11"
+    "@feathersjs/commons" "^4.3.7"
+    "@feathersjs/errors" "^4.3.11"
+    "@feathersjs/feathers" "^4.3.11"
+    debug "^4.1.1"
+
 "@feathersjs/authentication-local@^4.3.0":
   version "4.3.11"
   resolved "https://registry.yarnpkg.com/@feathersjs/authentication-local/-/authentication-local-4.3.11.tgz#a04114f9ddc705fed479dcc0a515f7ac41333133"
@@ -112,6 +123,15 @@
     debug "^4.1.1"
     events "^3.0.0"
     uberproto "^2.0.4"
+
+"@feathersjs/rest-client@^4.3.11":
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/@feathersjs/rest-client/-/rest-client-4.3.11.tgz#1fe060cb610ec63404c1275f8393fc80a9a10608"
+  integrity sha512-nPG8krIXSB1PdlR2eFF9awgm3D2cAAKH4kh3Li15Y3DDeBJ5ogQjmKJjDVpVDoc3QqG0IiiPdwGxnO6kw128Aw==
+  dependencies:
+    "@feathersjs/commons" "^4.3.7"
+    "@feathersjs/errors" "^4.3.11"
+    qs "^6.9.0"
 
 "@feathersjs/socketio@^4.3.0":
   version "4.3.11"
@@ -238,6 +258,13 @@
   integrity sha512-2BemWy7SynT87deweqc2eCzg6pRyTVlnnMat2JxsTNoyeSFKC27b19qBTeKRfBVt+SjtaWd/ud4faUaObONwBA==
   dependencies:
     "@types/mongodb" "*"
+    "@types/node" "*"
+
+"@types/node-fetch@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.5.3.tgz#b84127facd93642b1fb6439bc630ba0612e3ec50"
+  integrity sha512-X3TNlzZ7SuSwZsMkb5fV7GrPbVKvHc2iwHmslb8bIxRKWg2iqkfm3F/Wd79RhDpOXR7wCtKAwc5Y2JE6n/ibyw==
+  dependencies:
     "@types/node" "*"
 
 "@types/node@*":
@@ -2576,6 +2603,11 @@ node-environment-flags@1.0.5:
   dependencies:
     object.getownpropertydescriptors "^2.0.3"
     semver "^5.7.0"
+
+node-fetch@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
 node-notifier@^5.4.0:
   version "5.4.3"
